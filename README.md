@@ -19,21 +19,16 @@
     ```
    git clone ...
    uv init
-   uv sync    ##同步安装.toml文件里的内容
+   uv venv
+   source .venv/bin/activate
     ```
 2. 运行程序
     ```
     python app.py
     ```
-    
     - 应用将在 http://0.0.0.0:1999 启动，开启调试模式。
     - 在浏览器中打开 http://localhost:1999 查看前端界面。
 
 
 
 ### 项目持续完成中
-<!-- 1. demo跑通，agent框架实现 -->
-
-<!-- 1. 将论文作为大模型知识库，进行检索增强生成。 -->
-<!-- 2. 划词翻译。 -->
-<!-- 3. 适配谷歌搜索。 -->
