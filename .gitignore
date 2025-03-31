@@ -1,0 +1,13 @@
+# Python 编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+.env
+.venv/
+# venv/
+*.lock
+
+# 压缩包
+utils/*.tar.gz
